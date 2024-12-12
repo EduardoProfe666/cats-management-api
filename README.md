@@ -45,7 +45,7 @@ _An example API to manage your cats, built with NestJS and TypeScript_
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/cats-management-api
+git clone https://github.com/EduardoProfe666/cats-management-api
 
 # Navigate to project directory
 cd cats-management-api
