@@ -38,7 +38,7 @@ _An example API to manage your cats, built with NestJS and TypeScript_
 ### Prerequisites
 
 - Node.js version **16.0 or higher**
-- YARN version **1.x or higher**
+- NPM/PNPM/YARN
 - PostgreSQL installed and running
 
 ### Installation
@@ -51,23 +51,23 @@ git clone https://github.com/EduardoProfe666/cats-management-api
 cd cats-management-api
 
 # Install dependencies
-yarn install
+pnpm install
 
 # Configure environment variables
 cp .env.example .env # Update .env with your settings
 
 # Start the application
-yarn run start:dev
+pnpm run start:dev
 ```
 
 ### Production Build
 
 ```bash
 # Build for production
-yarn run build
+pnpm run build
 
 # Start production server
-npm run start:prod
+pnpm run start:prod
 ```
 
 ## 📄 API Endpoints
